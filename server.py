@@ -19,4 +19,4 @@ def get_greeting() -> str:
 if __name__ == "__main__":
     # forwarder = ngrok.forward("localhost:9000", authtoken_from_env=True)
     # print(f"Available at: {forwarder.url()}")
-    mcp.run(transport="http",port=9000)
+    mcp.run(transport="http",host="0.0.0.0"port=9000)
